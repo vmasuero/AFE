@@ -1,0 +1,137 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "HR_A"
+        },
+        {
+            "id": "MR_A"
+        },
+        {
+            "id": "HR_B"
+        },
+        {
+            "id": "MR_B"
+        },
+        {
+            "id": "C"
+        },
+        {
+            "id": "D"
+        },
+        {
+            "id": "A"
+        },
+        {
+            "id": "B"
+        },
+        {
+            "id": "E"
+        },
+        {
+            "id": "S7"
+        },
+        {
+            "id": "S6"
+        },
+        {
+            "id": "S5"
+        },
+        {
+            "id": "S3"
+        },
+        {
+            "id": "S1"
+        },
+        {
+            "id": "S2"
+        },
+        {
+            "id": "S4"
+        }
+    ],
+    "edges": [
+        {
+            "capacity": 10000,
+            "source": "HR_A",
+            "target": "MR_A"
+        },
+        {
+            "capacity": 10000,
+            "source": "MR_A",
+            "target": "C"
+        },
+        {
+            "capacity": 10000,
+            "source": "HR_B",
+            "target": "MR_B"
+        },
+        {
+            "capacity": 10000,
+            "source": "MR_B",
+            "target": "MR_A"
+        },
+        {
+            "capacity": 10000,
+            "source": "MR_B",
+            "target": "A"
+        },
+        {
+            "capacity": 10000,
+            "source": "C",
+            "target": "D"
+        },
+        {
+            "capacity": 10000,
+            "source": "C",
+            "target": "S7"
+        },
+        {
+            "capacity": 10000,
+            "source": "D",
+            "target": "E"
+        },
+        {
+            "capacity": 10000,
+            "source": "D",
+            "target": "S6"
+        },
+        {
+            "capacity": 10000,
+            "source": "D",
+            "target": "S5"
+        },
+        {
+            "capacity": 10000,
+            "source": "A",
+            "target": "B"
+        },
+        {
+            "capacity": 10000,
+            "source": "A",
+            "target": "S1"
+        },
+        {
+            "capacity": 10000,
+            "source": "A",
+            "target": "S2"
+        },
+        {
+            "capacity": 10000,
+            "source": "B",
+            "target": "D"
+        },
+        {
+            "capacity": 10000,
+            "source": "B",
+            "target": "S3"
+        },
+        {
+            "capacity": 10000,
+            "source": "E",
+            "target": "S4"
+        }
+    ]
+}
